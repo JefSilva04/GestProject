@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace Gestproject.Shared.Entities
 {
-    internal class Projects
+    public class Project
     {
 
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Este campo obligatorio")]
-        public string NombreProjecto { get; set; } = null;
+        public string NombreProyecto { get; set; } = null;
 
         public DateTime FechaInicio { get; set; }
 

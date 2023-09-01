@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Gestproject.Shared.Entities
 {
-    internal class Investigador
+    public class Investigador
     {
         public int Id { get; set; }
 
